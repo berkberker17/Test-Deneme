@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.6.5 on win32)" generated="20211019 23:21:48.359" rpa="false" schemaversion="2">
+<suite id="s1" name="techcarreerTest" source="C:\develop\robot\techcareer\filtertests\techcarreerTest.robot">
+<test id="s1-t1" name="verify the check the techcarreer button">
+<kw name="check the techcarreer" library="techcarreerApp">
+<kw name="create session" library="techcarreer">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.techcareer.net/bootcamp/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211019 23:21:49.087" level="INFO">Opening browser 'chrome' to base url 'https://www.techcareer.net/bootcamp/'.</msg>
+<status status="PASS" starttime="20211019 23:21:49.087" endtime="20211019 23:21:51.821"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211019 23:21:51.821" endtime="20211019 23:21:51.939"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>Ücretsiz öğren, mezun ol, çalışmaya başla.</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" starttime="20211019 23:21:51.939" endtime="20211019 23:21:51.957"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211019 23:21:53.964" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211019 23:21:51.957" endtime="20211019 23:21:53.964"/>
+</kw>
+<status status="PASS" starttime="20211019 23:21:49.086" endtime="20211019 23:21:53.964"/>
+</kw>
+<kw name="click the EN button" library="techcarreer">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id=lp-pom-button-1009</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211019 23:21:53.965" level="INFO">Clicking element 'id=lp-pom-button-1009'.</msg>
+<status status="PASS" starttime="20211019 23:21:53.965" endtime="20211019 23:21:55.327"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>Learn, graduate, start to work.</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" starttime="20211019 23:21:55.327" endtime="20211019 23:21:55.342"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20211019 23:21:57.355" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20211019 23:21:55.342" endtime="20211019 23:21:57.355"/>
+</kw>
+<status status="PASS" starttime="20211019 23:21:53.964" endtime="20211019 23:21:57.355"/>
+</kw>
+<kw name="click the hackathon button" library="techcarreer">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id=lp-pom-button-1146</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211019 23:21:57.356" level="INFO">Clicking element 'id=lp-pom-button-1146'.</msg>
+<status status="PASS" starttime="20211019 23:21:57.356" endtime="20211019 23:21:58.373"/>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<arg>To prove yourself through coding: Hackathon</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20211019 23:22:03.571" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-7.png"&gt;&lt;img src="selenium-screenshot-7.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20211019 23:22:03.432" endtime="20211019 23:22:03.571"/>
+</kw>
+<msg timestamp="20211019 23:22:03.574" level="FAIL">Text 'To prove yourself through coding: Hackathon' did not appear in 5 seconds.</msg>
+<status status="FAIL" starttime="20211019 23:21:58.373" endtime="20211019 23:22:03.574"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20211019 23:22:03.575" endtime="20211019 23:22:03.575"/>
+</kw>
+<status status="FAIL" starttime="20211019 23:21:57.355" endtime="20211019 23:22:03.575"/>
+</kw>
+<kw name="click the Hiring Challenge" library="techcarreer">
+<status status="NOT RUN" starttime="20211019 23:22:03.576" endtime="20211019 23:22:03.576"/>
+</kw>
+<kw name="click the All Event" library="techcarreer">
+<status status="NOT RUN" starttime="20211019 23:22:03.576" endtime="20211019 23:22:03.576"/>
+</kw>
+<kw name="scroll down" library="techcarreer">
+<status status="NOT RUN" starttime="20211019 23:22:03.576" endtime="20211019 23:22:03.576"/>
+</kw>
+<kw name="click the join now" library="techcarreer">
+<status status="NOT RUN" starttime="20211019 23:22:03.576" endtime="20211019 23:22:03.576"/>
+</kw>
+<kw name="click the basvur button" library="techcarreer">
+<status status="NOT RUN" starttime="20211019 23:22:03.577" endtime="20211019 23:22:03.577"/>
+</kw>
+<kw name="close session" library="techcarreer">
+<status status="NOT RUN" starttime="20211019 23:22:03.577" endtime="20211019 23:22:03.577"/>
+</kw>
+<status status="FAIL" starttime="20211019 23:21:49.085" endtime="20211019 23:22:03.577"/>
+</kw>
+<status status="FAIL" starttime="20211019 23:21:49.082" endtime="20211019 23:22:03.578">Text 'To prove yourself through coding: Hackathon' did not appear in 5 seconds.</status>
+</test>
+<status status="FAIL" starttime="20211019 23:21:48.361" endtime="20211019 23:22:03.581"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="techcarreerTest">techcarreerTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
